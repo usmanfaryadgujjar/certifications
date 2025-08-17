@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificate Showcase - Muhammad Usman</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #004085;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    /* Lightbox Popup */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #004085;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><b>Muhammad Usman </b></h1>
+    <h2> Certifications</h2>
+    <p>Laravel, Web Development, and More</p>
+  </header>
+
+  <div class="gallery">
+    <!-- Certificate Images -->
+    <a href="#img1"><img src="Muhammad-Usman-certifications-1.png" alt="Certificate Laravel"></a>
+    <a href="#img2"><img src="Muhammad-Usman-certifications-2.png" alt="Certificate 2"></a>
+    <a href="#img3"><img src="Muhammad-Usman-certifications-11.jpg" alt="Certificate 3"></a>
+    <a href="#img4"><img src="Muhammad-Usman-certifications-12.jpg" alt="Certificate 4"></a>
+    <a href="#img5"><img src="Muhammad-Usman-certifications-3.png" alt="Certificate 5"></a>
+    <a href="#img6"><img src="Muhammad-Usman-certifications-4.png" alt="Certificate 6"></a>
+    <a href="#img7"><img src="Muhammad-Usman-certifications-5.png" alt="Certificate 7"></a>
+    <a href="#img8"><img src="Muhammad-Usman-certifications-6.png" alt="Certificate 8"></a>
+    <a href="#img9"><img src="Muhammad-Usman-certifications-7.png" alt="Certificate 9"></a>
+    <a href="#img10"><img src="Muhammad-Usman-certifications-8.png" alt="Certificate 10"></a>
+    <a href="#img10"><img src="Muhammad-Usman-certifications-9.png" alt="Certificate 10"></a>
+    <a href="#img10"><img src="Muhammad-Usman-certifications-10.png" alt="Certificate 10"></a>
+  </div>
+
+  <!-- Lightboxes -->
+  <div id="img1" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-1.png" alt="Muhammad Usman certificate"></div>
+  <div id="img2" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-2.png" alt="Muhammad Usman certificate"></div>
+  <div id="img3" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-11.jpg" alt="Muhammad Usman certificate"></div>
+  <div id="img4" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-12.jpg" alt="Muhammad Usman certificate"></div>
+  <div id="img5" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-3.png" alt="Muhammad Usman certificate"></div>
+  <div id="img6" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-4.png" alt="Muhammad Usman certificate"></div>
+  <div id="img7" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-5.png" alt="Muhammad Usman certificate"></div>
+  <div id="img8" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-6.png" alt="Muhammad Usman certificate"></div>
+  <div id="img9" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-7.png" alt="Muhammad Usman certificate"></div>
+  <div id="img10" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-8.png" alt="Muhammad Usman certificate"></div>
+  <div id="img10" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-9.png" alt="Muhammad Usman certificate"></div>
+  <div id="img10" class="lightbox"><a href="#" class="close">&times;</a><img src="Muhammad-Usman-certifications-10.png" alt="Muhammad Usman certificate"></div>
+
+  <footer>
+    <p>Explore more projects and contributions on my GitHub:</p>
+    <p><a href="https://github.com/usmanfaryadgujjar/" target="_blank">github.com/usmanfaryadgujjar</a></p>
+  </footer>
+
+</body>
+</html>
