@@ -13,7 +13,8 @@ I use this space to provide transparency and proof of my continuous learning jou
 
 ## 🏆 SEO & Digital Marketing Certifications
 - **On-Page SEO Essentials** – *Semrush Academy* (Valid till 2026)
-- **Technical SEO Essentials** – *Semrush Academy* (Valid till 2026) 
+- **Technical SEO Essentials** – *Semrush Academy* (Valid till 2026)
+- **How to Increase Sales on Shopify with Content Marketing** – *Semrush Academy* (Valid till 2026) 
 - **Google Analytics Certification** – *Google* (2025)  
 - **Google Ads Certification** – *Google* (2025)  
 - **Great Learning - SEO** – *Great Learning Academy*  (2023)
